@@ -8,14 +8,14 @@ CWD = os.getcwd()
 PACKAGES = path.join(CWD, 'data')
 HTPASSWD = path.join(CWD, 'htpasswd')
 
-USER_PASS = os.environ['PARAM1']
-
-if USER_PASS:
-
-    f = open(HTPASSWD, 'w')
-
-    f.writelines([ "%s\n" % line for line in USER_PASS.split(',')])
-    f.close()
+# USER_PASS = os.environ['PARAM1']
+#
+# if USER_PASS:
+#
+#     f = open(HTPASSWD, 'w')
+#
+#     f.writelines([ "%s\n" % line for line in USER_PASS.split(',')])
+#     f.close()
 
 try:
     os.makedirs(PACKAGES)
