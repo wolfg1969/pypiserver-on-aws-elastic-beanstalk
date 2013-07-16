@@ -23,4 +23,4 @@ except OSError as e:
     if e.errno != errno.EEXIST:
         raise
 
-application = pypiserver.app(root=PACKAGES, password_file=None)
+application = pypiserver.app(root=PACKAGES, password_file=HTPASSWD)
