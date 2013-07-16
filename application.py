@@ -14,7 +14,7 @@ if USER_PASS:
 
     f = open(HTPASSWD, 'w')
 
-    f.writelines([line for line in USER_PASS.split(',')])
+    f.writelines([ "%s\n" % line for line in USER_PASS.split(',')])
     f.close()
 
 try:
