@@ -1,6 +1,6 @@
 pypiserver-on-aws-elastic-beanstalk
 ===================================
 
-Running a instance of pypiserver on the Amazon Elastic Beanstalk
+Running a instance of pypiserver on Amazon Elastic Beanstalk
 
-inspired by [pypiserver-on-the-cloud](https://github.com/dexterous/pypiserver-on-the-cloud)
+Inspired by [pypiserver-on-the-cloud](https://github.com/dexterous/pypiserver-on-the-cloud)
